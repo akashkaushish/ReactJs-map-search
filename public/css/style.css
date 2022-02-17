@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  border-bottom: 1px solid #ddd;
+}
+.header .navbar {
+  flex-wrap: inherit;
+}
+.header .navbar-brand {
+  display: inline-block;
+  width: 140px;
+}
+.search_bar {
+  width: 100%;
+  padding: 20px 0px;
+}
+.site-content .detail_view {
+  margin-top: 70px;
+  margin-left: 0.75rem;
+}
+.site-content .detail_view .item {
+  padding: 20px 0px;
+  border-top: 1px solid #ddd;
+}
+
+.site-content .map_view1 {
+  position: fixed;
+  right: -0.75rem;
+  top: 65px;
+}
+.site-content .map_view {
+  position: fixed;
+
+  right: -0.75rem;
+  top: 65px;
+  height: 100%;
+}
+
+.footer {
+  padding: 10px 0px;
+  border-top: 1px solid #ddd;
+  background: #fff;
+  position: relative;
+  z-index: 100;
+}
